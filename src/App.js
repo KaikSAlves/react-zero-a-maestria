@@ -10,10 +10,19 @@ import CarDetails from './components/CarDetails';
 import Fragment from './components/Fragment';
 import Container from './components/Container';
 import ExecuteFunction from './components/ExecuteFunction';
+import Message from './components/Message';
+import ChangeMessageState from './components/ChangeMessageState';
 
 function App() {
   const name = "Mateus";
   const [userName] = useState("Maria");
+
+  
+  const [message, setMessage] = useState("");
+
+  const handleMessage = (msg) => {
+    setMessage(msg);
+  }
 
   function showMessage(){
     console.log("Mostrando mensagem no console: f12 para observar mais!s");
@@ -53,7 +62,8 @@ function App() {
       </Container>
 
       <ExecuteFunction myFunction={showMessage}></ExecuteFunction>
-
+      <Message msg={message}></Message>
+      <ChangeMessageState handleMessage={handleMessage}></ChangeMessageState>
       {/* 
       Imagens publicas
       <div>

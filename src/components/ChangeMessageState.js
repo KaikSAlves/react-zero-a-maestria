@@ -1,0 +1,17 @@
+
+
+const ChangeMessageState = ({handleMessage}) => {
+
+  const messages = ["Teste1","Teste2", "Teste3"];
+
+
+  return (
+    <div>
+        <button onClick={() => handleMessage(messages[0])}>1</button>
+        <button onClick={() => handleMessage(messages[1])}>2</button>
+        <button onClick={() => handleMessage(messages[2])}>3</button>
+    </div>
+  )
+}
+
+export default ChangeMessageState
