@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import LogoReact from "./assets/logo512.png";
 import ManageData from './components/ManageData';
@@ -6,11 +6,15 @@ import ListRender from './components/ListRender';
 import ConditionalRender from './components/ConditionalRender';
 import ShowUserName from './components/ShowUserName';
 import { useState } from 'react';
+import CarDetails from './components/CarDetails';
 
 
 function App() {
   const name = "Mateus";
   const [userName] = useState("Maria");
+
+
+
 
   return (
     <div className="App">
@@ -19,6 +23,10 @@ function App() {
       <ListRender></ListRender>
       <ConditionalRender></ConditionalRender>
       <ShowUserName name={name} useStateName={userName}></ShowUserName>
+
+      {/*ao utilizar as props com o conceito de destructuring é importante passa-las na mesma orderm que esta definido no componente*/}
+
+      <CarDetails brand="Ferrari" km={100000} color="red"></CarDetails>
 {/* 
       Imagens publicas
       <div>
