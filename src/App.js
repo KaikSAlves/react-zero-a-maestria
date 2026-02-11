@@ -26,7 +26,8 @@ function App() {
 
       {/*ao utilizar as props com o conceito de destructuring é importante passa-las na mesma orderm que esta definido no componente*/}
 
-      <CarDetails brand="Ferrari" km={100000} color="red"></CarDetails>
+      <CarDetails brand="Ferrari" km={100000} color="red" newCar={false}></CarDetails>
+      <CarDetails brand="Reaproveitando" km={100000} color="propriedades" newCar={true}></CarDetails>
 {/* 
       Imagens publicas
       <div>
