@@ -12,6 +12,7 @@ import Container from './components/Container';
 import ExecuteFunction from './components/ExecuteFunction';
 import Message from './components/Message';
 import ChangeMessageState from './components/ChangeMessageState';
+import Desafio from './components/desafio4/Desafio';
 
 function App() {
   const name = "Mateus";
@@ -64,6 +65,8 @@ function App() {
       <ExecuteFunction myFunction={showMessage}></ExecuteFunction>
       <Message msg={message}></Message>
       <ChangeMessageState handleMessage={handleMessage}></ChangeMessageState>
+
+      <Desafio></Desafio>
       {/* 
       Imagens publicas
       <div>
