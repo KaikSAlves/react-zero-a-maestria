@@ -8,6 +8,7 @@ const MyComponent  = () => {
             <p className="my-component-text">Este também é do componente, onde se utilizamos o className para 
                 estilização de componentes, evitamos que ele vaze para outras tags
             </p>
+            <p style={{color: "blue"}}>Css inline do React</p>
         </div>
     );
 }
