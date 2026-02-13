@@ -1,4 +1,4 @@
-
+import "./UserDetails.css"
 
 const UserDetails = ({id, nome, idade, profissao}) => {
   return (
