@@ -1,0 +1,17 @@
+form {
+    width: 500px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: 1px solid;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea, select{
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+}

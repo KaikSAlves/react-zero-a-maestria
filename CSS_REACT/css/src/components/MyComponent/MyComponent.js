@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./MyComponent.css";
+import styles from "./MyComponent.module.css";
 
 const MyComponent  = () => {
 
@@ -52,6 +53,8 @@ const MyComponent  = () => {
                     ))}
                 </tbody>
             </table>
+
+            <h1 className={styles["css-module-title"]}>css module style</h1>
 
         </div>
     );
