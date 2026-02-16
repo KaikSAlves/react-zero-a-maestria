@@ -1,102 +1,534 @@
 {
-    "products": [{"id":1,"name":"Sweet and Sour Sauce","price":2.79},
-                {"id":2,"name":"Maple Pecan Granola","price":4.49},
-                {"id":3,"name":"Under Desk Footrest","price":29.99},
-                {"id":4,"name":"Board Game Storage","price":19.99},
-                {"id":5,"name":"Two-Tier Fruit Basket","price":29.99},
-                {"id":6,"name":"Eco-Friendly Yoga Blocks","price":15.99},
-                {"id":7,"name":"Compact Refrigerator","price":199.99},
-                {"id":8,"name":"Organic Granola","price":5.49},
-                {"id":9,"name":"Kettle Chip Variety Pack","price":3.99},
-                {"id":10,"name":"Halloween Decoration Set","price":29.99},
-                {"id":11,"name":"Sushi Roll Kit","price":9.99},
-                {"id":12,"name":"Popcorn Chicken","price":6.49},
-                {"id":13,"name":"Safety Pin Dispenser","price":5.99},
-                {"id":14,"name":"Pet Nail Clipper","price":12.99},
-                {"id":15,"name":"Buffalo Chicken Wraps","price":5.99},
-                {"id":16,"name":"Classic Baseball Cap","price":24.99},
-                {"id":17,"name":"Legging Pants","price":34.99},
-                {"id":18,"name":"Garlic and Herb Cream Cheese","price":3.49},
-                {"id":19,"name":"Electric Food Steamer","price":59.99},
-                {"id":20,"name":"Pumpkin Spice Granola","price":4.99},
-                {"id":21,"name":"Teriyaki Stir-Fry Sauce","price":3.49},
-                {"id":22,"name":"Spicy Tuna Rolls","price":6.49},
-                {"id":23,"name":"Pumpkin Ice Cream","price":4.99},
-                {"id":24,"name":"Wireless Car Charger","price":24.99},
-                {"id":25,"name":"Frozen Berry Blend","price":4.99},
-                {"id":26,"name":"Portable Grill Cover","price":24.99},
-                {"id":27,"name":"Casual Sneakers","price":39.99},
-                {"id":28,"name":"Set of Measuring Spoons","price":12.99},
-                {"id":29,"name":"Chicken Salad Kit","price":5.99},
-                {"id":30,"name":"Rechargeable Laptop Battery Pack","price":49.99},
-                {"id":31,"name":"Maple Pecan Pancake Mix","price":4.99},
-                {"id":32,"name":"Smart Scale","price":59.99},
-                {"id":33,"name":"Spiralizer","price":22.99},
-                {"id":34,"name":"Sun Protection Clothing","price":44.99},
-                {"id":35,"name":"Cocktail Shaker Set","price":29.99},
-                {"id":36,"name":"Mango Chia Pudding","price":4.49},
-                {"id":37,"name":"Hydration Backpack","price":39.99},
-                {"id":38,"name":"Smartphone Holder for Car","price":14.99},
-                {"id":39,"name":"Coconut Milk","price":2.49},
-                {"id":40,"name":"Chewy Granola Bars","price":3.49},
-                {"id":41,"name":"Interchangeable Watch Bands","price":24.99},
-                {"id":42,"name":"Sweet and Sour Sauce","price":2.79},
-                {"id":43,"name":"Eggs (dozen)","price":2.99},
-                {"id":44,"name":"Magnet Travel Fridge Magnets","price":12.99},
-                {"id":45,"name":"Essential Oils Diffuser Necklace","price":19.99},
-                {"id":46,"name":"Collapsible Pet Dog Bowl","price":9.99},
-                {"id":47,"name":"Garlic Herb Grilled Chicken","price":8.99},
-                {"id":48,"name":"Rice Cakes","price":2.29},
-                {"id":49,"name":"Creamy Garlic Dressing","price":3.99},
-                {"id":50,"name":"Pet Carrier Backpack","price":39.99},
-                {"id":51,"name":"Cinnamon Sugar Mix","price":1.49},
-                {"id":52,"name":"Cereal Dispenser with Portion Control","price":24.99},
-                {"id":53,"name":"Classic Chicken Noodle Soup","price":3.49},
-                {"id":54,"name":"Scented Candles","price":19.99},
-                {"id":55,"name":"Electric Opener for Jars and Bottles","price":24.99},
-                {"id":56,"name":"Multi-Port USB Hub","price":19.99},
-                {"id":57,"name":"Pecan Pie Filling","price":3.99},
-                {"id":58,"name":"Chocolate Chip Muffins","price":3.99},
-                {"id":59,"name":"Caribbean Jerk Marinade","price":3.79},
-                {"id":60,"name":"Raisin Cinnamon Granola","price":3.79},
-                {"id":61,"name":"Athletic Sports Bra","price":24.99},
-                {"id":62,"name":"Pet Grooming Scissors","price":16.99},
-                {"id":63,"name":"Maple Bacon Jerky","price":6.99},
-                {"id":64,"name":"Luxury Memory Foam Mattress Topper","price":129.99},
-                {"id":65,"name":"Lightweight Workout Tank","price":29.99},
-                {"id":66,"name":"Leather Biker Jacket","price":129.99},
-                {"id":67,"name":"Chocolate Almond Milk","price":2.79},
-                {"id":68,"name":"Collapsible Pet Dog Bowl","price":9.99},
-                {"id":69,"name":"Organic Cereal Bars","price":4.29},
-                {"id":70,"name":"Wrist Support Brace","price":19.99},
-                {"id":71,"name":"Compact Pop-Up Tent","price":69.99},
-                {"id":72,"name":"Bamboo Utensil Holder","price":14.99},
-                {"id":73,"name":"Spicy Avocado Salsa","price":4.49},
-                {"id":74,"name":"Salt and Pepper Grinder Set","price":19.99},
-                {"id":75,"name":"Wireless Charging Pad","price":19.99},
-                {"id":76,"name":"Vegetable and Cheese Quesadillas","price":6.99},
-                {"id":77,"name":"Granola","price":4.79},
-                {"id":78,"name":"Beard Grooming Kit","price":34.99},
-                {"id":79,"name":"Miso Soup Starter","price":2.99},
-                {"id":80,"name":"LED Table Lamp","price":29.99},
-                {"id":81,"name":"Cheesy Broccoli Soup Mix","price":2.99},
-                {"id":82,"name":"Bodyweight Resistance Bands","price":22.99},
-                {"id":83,"name":"3D Night Light","price":19.99},
-                {"id":84,"name":"Cajun Seasoning","price":1.99},
-                {"id":85,"name":"Wild Rice & Quinoa Mix","price":2.99},
-                {"id":86,"name":"Roasted Red Pepper Dip","price":3.29},
-                {"id":87,"name":"Homestyle Beef Stew","price":7.99},
-                {"id":88,"name":"Tailored Blazer","price":99.99},
-                {"id":89,"name":"Lemon Dill Salmon","price":9.99},
-                {"id":90,"name":"Mango Chunks","price":4.89},
-                {"id":91,"name":"Raspberry Limeade","price":1.99},
-                {"id":92,"name":"Fruit & Nut Trail Mix","price":4.99},
-                {"id":93,"name":"Organic Spinach","price":2.99},
-                {"id":94,"name":"Spicy Garlic Edamame","price":3.99},
-                {"id":95,"name":"Siphon Coffee Maker","price":49.99},
-                {"id":96,"name":"Fashionable Scarves Set","price":24.99},
-                {"id":97,"name":"Strawberry Rhubarb Jam","price":4.29},
-                {"id":98,"name":"Mediterranean Couscous Salad","price":5.49},
-                {"id":99,"name":"Laptop Stand","price":29.99},
-                {"id":100,"name":"Mini Air Purifier","price":49.99}]
+  "products": [
+    {
+      "id": 1,
+      "name": "Sweet and Sour Sauce",
+      "price": 2.79
+    },
+    {
+      "id": 2,
+      "name": "Maple Pecan Granola",
+      "price": 4.49
+    },
+    {
+      "id": 3,
+      "name": "Under Desk Footrest",
+      "price": 29.99
+    },
+    {
+      "id": 4,
+      "name": "Board Game Storage",
+      "price": 19.99
+    },
+    {
+      "id": 5,
+      "name": "Two-Tier Fruit Basket",
+      "price": 29.99
+    },
+    {
+      "id": 6,
+      "name": "Eco-Friendly Yoga Blocks",
+      "price": 15.99
+    },
+    {
+      "id": 7,
+      "name": "Compact Refrigerator",
+      "price": 199.99
+    },
+    {
+      "id": 8,
+      "name": "Organic Granola",
+      "price": 5.49
+    },
+    {
+      "id": 9,
+      "name": "Kettle Chip Variety Pack",
+      "price": 3.99
+    },
+    {
+      "id": 10,
+      "name": "Halloween Decoration Set",
+      "price": 29.99
+    },
+    {
+      "id": 11,
+      "name": "Sushi Roll Kit",
+      "price": 9.99
+    },
+    {
+      "id": 12,
+      "name": "Popcorn Chicken",
+      "price": 6.49
+    },
+    {
+      "id": 13,
+      "name": "Safety Pin Dispenser",
+      "price": 5.99
+    },
+    {
+      "id": 14,
+      "name": "Pet Nail Clipper",
+      "price": 12.99
+    },
+    {
+      "id": 15,
+      "name": "Buffalo Chicken Wraps",
+      "price": 5.99
+    },
+    {
+      "id": 16,
+      "name": "Classic Baseball Cap",
+      "price": 24.99
+    },
+    {
+      "id": 17,
+      "name": "Legging Pants",
+      "price": 34.99
+    },
+    {
+      "id": 18,
+      "name": "Garlic and Herb Cream Cheese",
+      "price": 3.49
+    },
+    {
+      "id": 19,
+      "name": "Electric Food Steamer",
+      "price": 59.99
+    },
+    {
+      "id": 20,
+      "name": "Pumpkin Spice Granola",
+      "price": 4.99
+    },
+    {
+      "id": 21,
+      "name": "Teriyaki Stir-Fry Sauce",
+      "price": 3.49
+    },
+    {
+      "id": 22,
+      "name": "Spicy Tuna Rolls",
+      "price": 6.49
+    },
+    {
+      "id": 23,
+      "name": "Pumpkin Ice Cream",
+      "price": 4.99
+    },
+    {
+      "id": 24,
+      "name": "Wireless Car Charger",
+      "price": 24.99
+    },
+    {
+      "id": 25,
+      "name": "Frozen Berry Blend",
+      "price": 4.99
+    },
+    {
+      "id": 26,
+      "name": "Portable Grill Cover",
+      "price": 24.99
+    },
+    {
+      "id": 27,
+      "name": "Casual Sneakers",
+      "price": 39.99
+    },
+    {
+      "id": 28,
+      "name": "Set of Measuring Spoons",
+      "price": 12.99
+    },
+    {
+      "id": 29,
+      "name": "Chicken Salad Kit",
+      "price": 5.99
+    },
+    {
+      "id": 30,
+      "name": "Rechargeable Laptop Battery Pack",
+      "price": 49.99
+    },
+    {
+      "id": 31,
+      "name": "Maple Pecan Pancake Mix",
+      "price": 4.99
+    },
+    {
+      "id": 32,
+      "name": "Smart Scale",
+      "price": 59.99
+    },
+    {
+      "id": 33,
+      "name": "Spiralizer",
+      "price": 22.99
+    },
+    {
+      "id": 34,
+      "name": "Sun Protection Clothing",
+      "price": 44.99
+    },
+    {
+      "id": 35,
+      "name": "Cocktail Shaker Set",
+      "price": 29.99
+    },
+    {
+      "id": 36,
+      "name": "Mango Chia Pudding",
+      "price": 4.49
+    },
+    {
+      "id": 37,
+      "name": "Hydration Backpack",
+      "price": 39.99
+    },
+    {
+      "id": 38,
+      "name": "Smartphone Holder for Car",
+      "price": 14.99
+    },
+    {
+      "id": 39,
+      "name": "Coconut Milk",
+      "price": 2.49
+    },
+    {
+      "id": 40,
+      "name": "Chewy Granola Bars",
+      "price": 3.49
+    },
+    {
+      "id": 41,
+      "name": "Interchangeable Watch Bands",
+      "price": 24.99
+    },
+    {
+      "id": 42,
+      "name": "Sweet and Sour Sauce",
+      "price": 2.79
+    },
+    {
+      "id": 43,
+      "name": "Eggs (dozen)",
+      "price": 2.99
+    },
+    {
+      "id": 44,
+      "name": "Magnet Travel Fridge Magnets",
+      "price": 12.99
+    },
+    {
+      "id": 45,
+      "name": "Essential Oils Diffuser Necklace",
+      "price": 19.99
+    },
+    {
+      "id": 46,
+      "name": "Collapsible Pet Dog Bowl",
+      "price": 9.99
+    },
+    {
+      "id": 47,
+      "name": "Garlic Herb Grilled Chicken",
+      "price": 8.99
+    },
+    {
+      "id": 48,
+      "name": "Rice Cakes",
+      "price": 2.29
+    },
+    {
+      "id": 49,
+      "name": "Creamy Garlic Dressing",
+      "price": 3.99
+    },
+    {
+      "id": 50,
+      "name": "Pet Carrier Backpack",
+      "price": 39.99
+    },
+    {
+      "id": 51,
+      "name": "Cinnamon Sugar Mix",
+      "price": 1.49
+    },
+    {
+      "id": 52,
+      "name": "Cereal Dispenser with Portion Control",
+      "price": 24.99
+    },
+    {
+      "id": 53,
+      "name": "Classic Chicken Noodle Soup",
+      "price": 3.49
+    },
+    {
+      "id": 54,
+      "name": "Scented Candles",
+      "price": 19.99
+    },
+    {
+      "id": 55,
+      "name": "Electric Opener for Jars and Bottles",
+      "price": 24.99
+    },
+    {
+      "id": 56,
+      "name": "Multi-Port USB Hub",
+      "price": 19.99
+    },
+    {
+      "id": 57,
+      "name": "Pecan Pie Filling",
+      "price": 3.99
+    },
+    {
+      "id": 58,
+      "name": "Chocolate Chip Muffins",
+      "price": 3.99
+    },
+    {
+      "id": 59,
+      "name": "Caribbean Jerk Marinade",
+      "price": 3.79
+    },
+    {
+      "id": 60,
+      "name": "Raisin Cinnamon Granola",
+      "price": 3.79
+    },
+    {
+      "id": 61,
+      "name": "Athletic Sports Bra",
+      "price": 24.99
+    },
+    {
+      "id": 62,
+      "name": "Pet Grooming Scissors",
+      "price": 16.99
+    },
+    {
+      "id": 63,
+      "name": "Maple Bacon Jerky",
+      "price": 6.99
+    },
+    {
+      "id": 64,
+      "name": "Luxury Memory Foam Mattress Topper",
+      "price": 129.99
+    },
+    {
+      "id": 65,
+      "name": "Lightweight Workout Tank",
+      "price": 29.99
+    },
+    {
+      "id": 66,
+      "name": "Leather Biker Jacket",
+      "price": 129.99
+    },
+    {
+      "id": 67,
+      "name": "Chocolate Almond Milk",
+      "price": 2.79
+    },
+    {
+      "id": 68,
+      "name": "Collapsible Pet Dog Bowl",
+      "price": 9.99
+    },
+    {
+      "id": 69,
+      "name": "Organic Cereal Bars",
+      "price": 4.29
+    },
+    {
+      "id": 70,
+      "name": "Wrist Support Brace",
+      "price": 19.99
+    },
+    {
+      "id": 71,
+      "name": "Compact Pop-Up Tent",
+      "price": 69.99
+    },
+    {
+      "id": 72,
+      "name": "Bamboo Utensil Holder",
+      "price": 14.99
+    },
+    {
+      "id": 73,
+      "name": "Spicy Avocado Salsa",
+      "price": 4.49
+    },
+    {
+      "id": 74,
+      "name": "Salt and Pepper Grinder Set",
+      "price": 19.99
+    },
+    {
+      "id": 75,
+      "name": "Wireless Charging Pad",
+      "price": 19.99
+    },
+    {
+      "id": 76,
+      "name": "Vegetable and Cheese Quesadillas",
+      "price": 6.99
+    },
+    {
+      "id": 77,
+      "name": "Granola",
+      "price": 4.79
+    },
+    {
+      "id": 78,
+      "name": "Beard Grooming Kit",
+      "price": 34.99
+    },
+    {
+      "id": 79,
+      "name": "Miso Soup Starter",
+      "price": 2.99
+    },
+    {
+      "id": 80,
+      "name": "LED Table Lamp",
+      "price": 29.99
+    },
+    {
+      "id": 81,
+      "name": "Cheesy Broccoli Soup Mix",
+      "price": 2.99
+    },
+    {
+      "id": 82,
+      "name": "Bodyweight Resistance Bands",
+      "price": 22.99
+    },
+    {
+      "id": 83,
+      "name": "3D Night Light",
+      "price": 19.99
+    },
+    {
+      "id": 84,
+      "name": "Cajun Seasoning",
+      "price": 1.99
+    },
+    {
+      "id": 85,
+      "name": "Wild Rice & Quinoa Mix",
+      "price": 2.99
+    },
+    {
+      "id": 86,
+      "name": "Roasted Red Pepper Dip",
+      "price": 3.29
+    },
+    {
+      "id": 87,
+      "name": "Homestyle Beef Stew",
+      "price": 7.99
+    },
+    {
+      "id": 88,
+      "name": "Tailored Blazer",
+      "price": 99.99
+    },
+    {
+      "id": 89,
+      "name": "Lemon Dill Salmon",
+      "price": 9.99
+    },
+    {
+      "id": 90,
+      "name": "Mango Chunks",
+      "price": 4.89
+    },
+    {
+      "id": 91,
+      "name": "Raspberry Limeade",
+      "price": 1.99
+    },
+    {
+      "id": 92,
+      "name": "Fruit & Nut Trail Mix",
+      "price": 4.99
+    },
+    {
+      "id": 93,
+      "name": "Organic Spinach",
+      "price": 2.99
+    },
+    {
+      "id": 94,
+      "name": "Spicy Garlic Edamame",
+      "price": 3.99
+    },
+    {
+      "id": 95,
+      "name": "Siphon Coffee Maker",
+      "price": 49.99
+    },
+    {
+      "id": 96,
+      "name": "Fashionable Scarves Set",
+      "price": 24.99
+    },
+    {
+      "id": 97,
+      "name": "Strawberry Rhubarb Jam",
+      "price": 4.29
+    },
+    {
+      "id": 98,
+      "name": "Mediterranean Couscous Salad",
+      "price": 5.49
+    },
+    {
+      "id": 99,
+      "name": "Laptop Stand",
+      "price": 29.99
+    },
+    {
+      "id": 100,
+      "name": "Mini Air Purifier",
+      "price": 49.99
+    },
+    {
+      "id": "fbcc",
+      "name": "teste",
+      "price": "12"
+    },
+    {
+      "id": "694d",
+      "name": "teste",
+      "price": "123"
+    },
+    {
+      "id": "518b",
+      "name": "teste123",
+      "price": "a"
+    },
+    {
+      "id": "019b",
+      "name": "",
+      "price": "123"
+    },
+    {
+      "id": "2f2d",
+      "name": "123",
+      "price": "123"
+    },
+    {
+      "id": "e17b",
+      "name": "teste",
+      "price": "123"
+    }
+  ]
 }
